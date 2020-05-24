@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Progress Task 2 - Pure CSS</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7550cdd447.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="layout">
+        <main class="content">
+
+            <section class="left">
+            <!-- Appointments /left side/ -->
+                <section class="appointments">
+                    <div class="card">
+                        <img src="images/wapsw.png" alt="Outlook Logo">
+                        <p class="appointments-hour">12:30pm - 13:00pm</p>
+                        <h5 class="appointments-title">Cortoso Briefing</h5>
+                        <p class="gray-paragraph">Name Here</p>
+
+                        <a href="#"><button class="button-primary">Join</button></a>
+                    </div>
+                </section>
+
+                <section class="appointments">
+                    <div class="card">
+                        <img src="images/wapsw.png" alt="Outlook Logo">
+                        <p class="appointments-hour">13:30pm - 14:00pm</p>
+                        <h5 class="appointments-title">Weekly Status Meeting</h5>
+                        <p class="gray-paragraph">Name Here</p>
+
+                        <a href="#"><button class="button-primary">Join</button></a>
+                    </div>
+                </section>
+
+                <section class="appointments">
+                    <div class="card">
+                        <img src="images/wapsw.png" alt="Outlook Logo">
+                        <p class="appointments-hour">14:30pm - 15:00pm</p>
+                        <h5 class="appointments-title">Custumer User Study Report Out</h5>
+                        <p class="gray-paragraph">Name Here</p>
+
+                        <a href="#"><button class="button-primary">Join</button></a>
+                    </div>
+                </section>
+                <!-- Appointments /left side/ END -->
+            </section>
+
+
+            <!-- Right side -->
+            <section class="right">
+                <!-- Clock -->
+                <section class="clock">
+                    <h2>12:05 PM</h2>
+                    <p class="gray-paragraph">Today is: Wednesday</p>
+                    <p class="gray-paragraph">24 May 2020</p>
+                </section>
+            
+                <!-- Menu Icons -->
+                <section class="menu-icons">
+                    <ul class="first-row">
+                        <li>
+                            <i class="fas fa-users"></i>
+                            <p class="gray-paragraph">Meeting</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-tty"></i>
+                            <p class="gray-paragraph">Dial Pad</p>
+                        </li>
+                    </ul>
+
+                    <ul class="second-row">
+                        <li>
+                            <i class="fas fa-desktop"></i>
+                            <p class="gray-paragraph">Present</p>
+                        </li>
+                        <li>
+                            <i class="fas fa-laptop-medical"></i>
+                            <p class="gray-paragraph">Invite additional people</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Volume Bar -->
+                <section class="volume">
+                    <i class="fas fa-volume-up"></i>
+                    <input type="range" id="range-bar" name="volume-range" min="0" max="10">
+                    <i class="fas fa-cog"></i>
+                </section>
+            </section>
+            <!-- Right side END -->
+
+        </main>
+    </div>
+
+</body>
+</html>
